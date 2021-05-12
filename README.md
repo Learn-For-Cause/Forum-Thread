@@ -3,7 +3,7 @@
 This **Discuss-Thread** project under Learn For Cause is a MERN stack web app that is created to provide learners and developers with the ease of discussing collaboratively and resolving issues online. The main objective is to provide a supportive community to find solutions of your issues and help others by addressing to their post and get uprated in your skills with every successive solutions varified by the posted authors.
 
 <div>
-      <h1>Technology Stack</h1>
+      <h2>Technology Stack</h2>
       <p align ="center">
         <code><img src="https://img.icons8.com/color/48/000000/mongodb.png" width="5%" /></code>
         <code><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png" width="5%" /></code>
@@ -46,6 +46,10 @@ Once thats done, close the ESLint tab that is open, and press Command-Shift-P on
 - Once that finshes, the project is ready to go :)
 - Start the web page and server by typing `npm start` into terminal.
 - The site is now available at <http://localhost:8080/>
+
+# Wire Frame of Discuss-Thread
+
+Before contributing go through the wire frame of Discuss-Thread and raise comments if you have any quaries, visit the Wire Frame [here](https://wireframepro.mockflow.com/view/Mc96bf38ae0b915aea8bf416364d60fab1620850361205)!
 
 # Contributing to Discuss-Thread
 
