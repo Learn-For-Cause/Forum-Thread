@@ -43,6 +43,7 @@ Once thats done, close the ESLint tab that is open, and press Command-Shift-P on
 <https://github.com/Learn-For-Cause/discuss-thread>
 - Then press enter, then once that is done, click open in the bottom right.
 - Open up a new teminal and type `npm install` and hit enter.
+- Inside `config` folder create `config.js` file and copy paste the content from `config.example.js` ( Contact to admin [team@learnforcause.com](team@learnforcause.com) for the Mongodb URI and initialise both `db` and `db_dev` variables with it. )
 - Once that finshes, the project is ready to go :)
 - Start the web page and server by typing `npm start` into terminal.
 - The site is now available at <http://localhost:8080/>
