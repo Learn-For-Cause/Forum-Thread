@@ -1,6 +1,6 @@
-# Discuss-Thread
+# Forum-Thread
 
-This **Discuss-Thread** project under Learn For Cause is a MERN stack web app that is created to provide learners and developers with the ease of discussing collaboratively and resolving issues online. The main objective is to provide a supportive community to find solutions of your issues and help others by addressing to their post and get uprated in your skills with every successive solutions varified by the posted authors.
+This **Forum-Thread** project under Learn For Cause is a MERN stack web app that is created to provide learners and developers with the ease of discussing collaboratively and resolving issues online. The main objective is to provide a supportive community to find solutions of your issues and help others by addressing to their post and get uprated in your skills with every successive solutions varified by the posted authors.
 
 <div>
       <h2>Technology Stack</h2>
