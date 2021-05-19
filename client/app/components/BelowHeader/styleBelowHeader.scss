@@ -23,9 +23,9 @@ h1{
     height: 100%;
     border-radius: 10px;
     position: relative;
-
 }
 /* ---------------------------------second-container---------------------------------*/
+   //contains two card 
 .second-container {
     @include flexRow;
     background: transparent;
@@ -55,6 +55,12 @@ h1{
 .card-two{
   background: #cfeafe;
 }
+.card-body > a,a:focus, a:active{
+  text-decoration: none;
+}
+.card-body > a:hover{
+  color: white;
+}
 .card-text{
   text-align: center;
   padding: 0px 10px;
@@ -74,9 +80,18 @@ h1{
 .card-link-1{
   background-color: #f2720c;
 }
+
+.card-first .card-link-1:hover{
+    background-color: #da670b;
+
+}
+.card-two .card-link-2:hover{
+    background-color: #0077cc;
+}
 .card-link-2{
   background-color: #0095ff;
 }
+
 .link-in-card-1, .link-in-card-2{
   width: 100%;
   text-align: center;
@@ -106,6 +121,7 @@ a, a:focus, a:active {
 }
 
 /* ---------------------------------third-container---------------------------------*/
+//contains the animation part 
 .third-container{
   @include flexColumn;
     color: white;
@@ -157,6 +173,7 @@ a, a:focus, a:active {
 
 
 /* ---------------------------------fourth-container---------------------------------*/
+//contains the four divs with some little information
 .fourth-container {
   display: flex;
   align-content: center;
@@ -173,7 +190,7 @@ a, a:focus, a:active {
 }
 .first-box-first-div{
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .first-box-second-div{
@@ -185,6 +202,7 @@ a, a:focus, a:active {
 
 
 /*----------------------------------------bottom-svg------------------------------------------*/
+//used to make a curve(semi-circle) in bottom of the main container
 .bottom-curve
 {
   fill: #fff;
@@ -196,7 +214,7 @@ a, a:focus, a:active {
 
 /*----------------------------------------all-media-queries------------------------------------------*/
 
-@media(max-width: 2801px)
+@media(max-width: 2800px)
 {
   .card-first, .card-two{
     width: 50%;
