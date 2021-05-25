@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => (
-  
   <nav className="navbar navbar-expand-lg navbar-light bg-light ">
     <a className="navbar-brand" href="#">
       <img src="https://img.icons8.com/material-sharp/24/000000/comment-discussion.png" />
@@ -60,7 +59,7 @@ const Header = () => (
           </a>
         </li>
         <li className="nav-item active">
-          <button type="button" className="btn btn-primary">
+          <button type="button" className="btn btn-primary btn-block">
             Log In
           </button>
         </li>
