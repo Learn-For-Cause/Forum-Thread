@@ -49,9 +49,7 @@ const Header = () => (
           </a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="#" style={{ color: "#4b3589" }}>
-            Labs <span className="sr-only">(current)</span>
-          </a>
+          <Link className="nav-link" to="/cards">Join Us</Link>
         </li>
         <li className="nav-item active">
           <a className="nav-link" href="#" style={{ color: "#4b3589" }}>
