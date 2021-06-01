@@ -26,6 +26,9 @@ app.use(bodyParser.json());
 // API routes
 require("./routes")(app);
 
+
+
+
 if (isDev) {
     const compiler = webpack(webpackConfig);
 

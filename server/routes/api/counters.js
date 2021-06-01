@@ -8,6 +8,7 @@ module.exports = app => {
       .catch(err => next(err));
   });
 
+  
   app.post("/api/counters", function (req, res, next) {
     const counter = new Counter();
 
