@@ -7,13 +7,16 @@ import NotFound from "./components/App/NotFound";
 // import Home from "./components/Home/Home";
 import HelloWorld from "./components/HelloWorld/HelloWorld";
 import "./styles/styles.scss";
-import { Banner } from "./components/Kathan/Banner";
+// import { Banner } from "./components/Kathan/Banner";
+import { Login } from "./components/Kathan/Login"
+import { Signup } from "./components/Kathan/Signup"
 
 render(
   <Router>
     <App>
       <Switch>
-        <Route exact path="/" component={Banner}/>
+        <Route exact path="/Login" component={Login}/>
+        <Route exact path="/Signup" component={Signup}/>
         <Route path="/helloworld" component={HelloWorld} />
         <Route component={NotFound} />
       </Switch>
