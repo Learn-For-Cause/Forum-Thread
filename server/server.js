@@ -9,13 +9,23 @@ const bodyParser = require('body-parser');
 const { success, error } = require("consola");
 const config = require("../config/config");
 const webpackConfig = require("../webpack.config");
+const cookieParser = require('cookie-parser'); //cookie parser is used for getting the cookies from the front-end to the backend
+const dotenv = require('dotenv');
 
-const isDev = process.env.NODE_ENV !== "production";
+
+
 const port = process.env.PORT || 8080;
+const isDev = process.env.NODE_ENV !== "production";
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+//new rewuire
+app.use(cookieParser())
+
+//new require
+dotenv.config({path: '../config/config.env'})
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
