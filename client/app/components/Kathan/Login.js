@@ -23,7 +23,7 @@ export const Login = () => {
       </div>
       <br/>
       <div>
-        <span>Don't have an accont?  </span><a href="/Signup">sign up</a>
+        <span>Don't have an accont?  </span><a href="/Signup">Sign up</a>
       </div>
     </div>
   )
