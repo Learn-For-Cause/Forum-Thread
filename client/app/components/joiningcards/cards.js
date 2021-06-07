@@ -35,7 +35,7 @@ const Cards = () => {
             <b>A public platform builing the definitive colletion of coding questions and answers.</b>
           </Typography>
           <Typography variant="p" color="textPrimary" component="p" style={{ paddingTop: 10 }}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.
         </Typography>
         </CardContent>
         <Button variant="contained" style={{
@@ -74,10 +74,10 @@ const Cards = () => {
         />
         <CardContent>
           <Typography variant="p" color="textPrimary" component="p" style={{ fontWeight: 'bolder' }}>
-            <b>A private collaboration & knowledge sharing SaaS platform for companies platform.</b>
+            <b>A private collaboration and knowledge sharing SaaS platform for companies platform.</b>
           </Typography>
           <Typography variant="p" color="textPrimary" component="p" style={{ paddingTop: 10 }}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.
         </Typography>
         </CardContent>
         <Button variant="contained" style={{

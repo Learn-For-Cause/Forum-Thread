@@ -6,6 +6,7 @@ module.exports = app => {
       .exec()
       .then(counter => res.json(counter))
       .catch(err => next(err));
+      console.log("counter1")
   });
 
   
@@ -52,4 +53,11 @@ module.exports = app => {
       })
       .catch(err => next(err));
   });
+
+  app.post("/api/register", (req, res) =>{
+    res.json({success: "successfully register"})
+  })
+
+ 
+
 };
