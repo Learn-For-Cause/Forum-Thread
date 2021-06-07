@@ -19,8 +19,23 @@ const Header = () => (
         <li className="nav-item">
           <Link className="nav-link" to="#">Empty</Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="#">Empty</Link>
+        <li className="nav-item active">
+          <Link className="nav-link" to="/cards">Join Us</Link>
+        </li>
+        <li className="nav-item active">
+          <a className="nav-link" href="#" style={{ color: "#4b3589" }}>
+            Communities <span className="sr-only">(current)</span>
+          </a>
+        </li>
+        <li className="nav-item active">
+          <button type="button" className="btn btn-primary btn-block">
+            Log In
+          </button>
+        </li>
+        <li className="nav-item active">
+          <button type="button" className="btn btn-primary">
+            Sign Up
+          </button>
         </li>
       </ul>
     </div>
