@@ -9,7 +9,6 @@ module.exports = app => {
       console.log("counter1")
   });
 
-  
   app.post("/api/counters", function (req, res, next) {
     const counter = new Counter();
 
