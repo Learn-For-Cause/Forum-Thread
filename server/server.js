@@ -9,13 +9,27 @@ const bodyParser = require('body-parser');
 const { success, error } = require("consola");
 const config = require("../config/config");
 const webpackConfig = require("../webpack.config");
+const cookieParser = require('cookie-parser'); //cookie parser is used for getting the cookies from the front-end to the backend
+const dotenv = require('dotenv');
+const passport = require('passport');
+const cookieSession = require('cookie-session');
+const passportRoutes = require('./routes/api/passportRoutes');
+const passportAuth = require('./routes/api/passportAuth');
 
-const isDev = process.env.NODE_ENV !== "production";
+
+
 const port = process.env.PORT || 8080;
+const isDev = process.env.NODE_ENV !== "production";
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+//new rewuire
+app.use(cookieParser())
+
+//new require
+dotenv.config({path: '../config/config.env'})
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -23,11 +37,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
+// set up session cookies
+app.use(cookieSession({
+    maxAge: 24 * 60 * 60 * 1000,
+    keys: [config.session.cookieKe]
+}));
+
+// initialize passport
+app.use(passport.initialize());
+app.use(passport.session());
+app.use('/', passportRoutes);
+
 // API routes
 require("./routes")(app);
-
-
-
 
 if (isDev) {
     const compiler = webpack(webpackConfig);
