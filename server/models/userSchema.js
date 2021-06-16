@@ -51,9 +51,12 @@ const userSchema = new mongoose.Schema({
       //     throw new Error("invalid password")
       //   }
       // }
+
   },
   googleId: {
     type:String
+
+
   }
 })
 

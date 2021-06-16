@@ -1,6 +1,6 @@
-# Discuss-Thread
+# Forum-Thread
 
-This **Discuss-Thread** project under Learn For Cause is a MERN stack web app that is created to provide learners and developers with the ease of discussing collaboratively and resolving issues online. The main objective is to provide a supportive community to find solutions of your issues and help others by addressing to their post and get uprated in your skills with every successive solutions varified by the posted authors.
+This **Forum-Thread** project under Learn For Cause is a MERN stack web app that is created to provide learners and developers with the ease of discussing collaboratively and resolving issues online. The main objective is to provide a supportive community to find solutions of your issues and help others by addressing to their post and get uprated in your skills with every successive solutions varified by the posted authors.
 
 <div>
       <h2>Technology Stack</h2>
@@ -43,6 +43,7 @@ Once thats done, close the ESLint tab that is open, and press Command-Shift-P on
 <https://github.com/Learn-For-Cause/discuss-thread>
 - Then press enter, then once that is done, click open in the bottom right.
 - Open up a new teminal and type `npm install` and hit enter.
+- Inside `config` folder create `config.js` file and copy paste the content from `config.example.js` ( Contact to admin [team@learnforcause.com](team@learnforcause.com) for the Mongodb URI and initialise both `db` and `db_dev` variables with it. )
 - Once that finshes, the project is ready to go :)
 - Start the web page and server by typing `npm start` into terminal.
 - The site is now available at <http://localhost:8080/>

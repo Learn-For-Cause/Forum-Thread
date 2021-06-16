@@ -11,10 +11,13 @@ const config = require("../config/config");
 const webpackConfig = require("../webpack.config");
 const cookieParser = require('cookie-parser'); //cookie parser is used for getting the cookies from the front-end to the backend
 const dotenv = require('dotenv');
+
 const passport = require('passport');
 const cookieSession = require('cookie-session');
 const passportRoutes = require('./routes/api/passportRoutes');
 const passportAuth = require('./routes/api/passportAuth');
+
+
 
 
 
@@ -37,6 +40,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
+
 // set up session cookies
 app.use(cookieSession({
     maxAge: 24 * 60 * 60 * 1000,
@@ -47,6 +51,8 @@ app.use(cookieSession({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use('/', passportRoutes);
+
+
 
 // API routes
 require("./routes")(app);
