@@ -1,4 +1,20 @@
 # Forum-Thread
+<div align="center">
+
+<a href="https://github.com/Learn-For-Cause/Forum-Thread"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/Learn-For-Cause/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?v=103"></a>
+
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/graphs/contributors"><img src="https://img.shields.io/github/contributors/Learn-For-Cause/Forum-Thread?color=brightgreen"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/stargazers"><img src="https://img.shields.io/github/stars/Learn-For-Cause/Forum-Thread?color=0059b3"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/network/members"><img src="https://img.shields.io/github/forks/Learn-For-Cause/Forum-Thread?color=yellow"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/issues"><img src="https://img.shields.io/github/issues/Learn-For-Cause/Forum-Thread?color=0059b3"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/Learn-For-Cause/Forum-Thread?color=yellow"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/pulls"><img src="https://img.shields.io/github/issues-pr/Learn-For-Cause/Forum-Thread?color=brightgreen"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Learn-For-Cause/Forum-Thread?color=0059b3"></a> 
+</div>
 
 This **Forum-Thread** project under Learn For Cause is a MERN stack web app that is created to provide learners and developers with the ease of discussing collaboratively and resolving issues online. The main objective is to provide a supportive community to find solutions of your issues and help others by addressing to their post and get uprated in your skills with every successive solutions varified by the posted authors.
 
