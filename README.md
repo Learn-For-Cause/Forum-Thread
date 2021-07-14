@@ -55,3 +55,27 @@ Before contributing go through the wire frame of Discuss-Thread and raise commen
 # Contributing to Discuss-Thread
 
 To contribute to Discuss-Thread, follow the guidelines [here](./contributing.md)!
+
+## Community 👥
+
+[![DISCORD](https://img.shields.io/badge/Join-Discord-blue)](https://discord.gg/csVrbuxdwQ)
+
+## Authors
+- **Asutosh Das** - _initial work_ - [Asutosh Das](https://github.com/Ash-exp)
+- **Sambid Anand Bharadwaj** - _initial work_ - [Sambid Anand Bharadwaj](https://github.com/sams14)
+
+Enjoy! Give us [feedback](https://github.com/Learn-For-Cause/Forum-Thread/issues) if you have suggestions on how to improve this information.
+
+## Contributors 🌟 
+
+Thanks to these wonderful people ✨✨:
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/Learn-For-Cause/Forum-Thread/contributors">
+  				<img src="https://contrib.rocks/image?repo=Learn-For-Cause/Forum-Thread" />
+			</a>
+		</td>
+	</tr>
+</table>
