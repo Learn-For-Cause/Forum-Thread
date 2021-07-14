@@ -1,33 +1,72 @@
 # Forum-Thread
+<div align="center">
+
+<a href="https://github.com/Learn-For-Cause/Forum-Thread"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/Learn-For-Cause/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?v=103"></a>
+
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/graphs/contributors"><img src="https://img.shields.io/github/contributors/Learn-For-Cause/Forum-Thread?color=brightgreen"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/stargazers"><img src="https://img.shields.io/github/stars/Learn-For-Cause/Forum-Thread?color=0059b3"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/network/members"><img src="https://img.shields.io/github/forks/Learn-For-Cause/Forum-Thread?color=yellow"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/issues"><img src="https://img.shields.io/github/issues/Learn-For-Cause/Forum-Thread?color=0059b3"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/Learn-For-Cause/Forum-Thread?color=yellow"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/pulls"><img src="https://img.shields.io/github/issues-pr/Learn-For-Cause/Forum-Thread?color=brightgreen"></a>
+<a href="https://github.com/Learn-For-Cause/Forum-Thread/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Learn-For-Cause/Forum-Thread?color=0059b3"></a> 
+</div>
 
 This **Forum-Thread** project under Learn For Cause is a MERN stack web app that is created to provide learners and developers with the ease of discussing collaboratively and resolving issues online. The main objective is to provide a supportive community to find solutions of your issues and help others by addressing to their post and get uprated in your skills with every successive solutions varified by the posted authors.
 
-<div>
-      <h2>Technology Stack</h2>
-      <p align ="center">
-        <code><img src="https://img.icons8.com/color/48/000000/mongodb.png" width="5%" /></code>
-        <code><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png" width="5%" /></code>
-        <code><img src="https://img.icons8.com/color/48/000000/react-native.png" width="5%" /></code>
-        <code><img src="https://img.icons8.com/windows/64/26e07f/node-js.png" width="5%"/></code>
-        <code><img src="https://img.icons8.com/color/64/000000/git.png" width="5%"/></code>
-        <code><img src="https://img.icons8.com/color/64/000000/github.png" width="5%"/></code>
-        <code><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png" width="5%"/></code>
-        <code><img src="https://img.icons8.com/color/64/000000/bootstrap.png" width="5%"/></code>
-        <code><img src="https://img.icons8.com/color/64/000000/sass.png" width="5%"/></code>
-      </p>
+<h2>Technology Stack</h2>
+<div align="center">
+<p align ="center">
+
+<img src="https://img.shields.io/badge/-MongoDB-blueviolet">
+<img src="https://img.shields.io/badge/-ExpressJS-yellow">
+<img src="https://img.shields.io/badge/-React%20Native-blue">
+<img src="https://img.shields.io/badge/-NodeJS-brightgreen">
+<img src="https://img.shields.io/badge/-Git-red">
+<img src="https://img.shields.io/badge/-GitHub-lightgray">
+<img src="https://img.shields.io/badge/-Webpack-orange">
+<img src="https://img.shields.io/badge/-Bootstrap-informational">
+<img src="https://img.shields.io/badge/-Sass-ff69b4">
+	
+<code><img src="https://img.icons8.com/color/48/000000/mongodb.png" width="5%" /></code>
+<code><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png" width="5%" /></code>
+<code><img src="https://img.icons8.com/color/48/000000/react-native.png" width="5%" /></code>
+<code><img src="https://img.icons8.com/windows/64/26e07f/node-js.png" width="5%"/></code>
+<code><img src="https://img.icons8.com/color/64/000000/git.png" width="5%"/></code>
+<code><img src="https://img.icons8.com/color/64/000000/github.png" width="5%"/></code>
+<code><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png" width="5%"/></code>
+<code><img src="https://img.icons8.com/color/64/000000/bootstrap.png" width="5%"/></code>
+<code><img src="https://img.icons8.com/color/64/000000/sass.png" width="5%"/></code>
+</p>
 </div>
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Prerequisites 
+<div align="center">
+<img src="https://img.shields.io/badge/-Prerequisites-red"> 
+<img src="https://shields.io/badge/-VS%20Code-brightgreen"> 
+<img src="https://img.shields.io/badge/-NodeJS-blue">
+</div>
 
 - Download Node LTS version here: <https://nodejs.org/en/download/>
 - Download VSCode from here: <https://code.visualstudio.com/>
 - Install both before continuing
 
 ### Installing & Starting
+<div align="center">
+<img src="https://img.shields.io/badge/-Extensions-blueviolet">
+<img src="https://img.shields.io/badge/-Prettier-orange">
+<img src="https://img.shields.io/badge/-EditorConfig-informational">
+<img src="https://img.shields.io/badge/-Intellicode-brightgreen">
+<img src="https://img.shields.io/badge/-ESLint-yellow">
+</div>
 
 - Open Visual Studio Code (Referred to as VSCode)
 - In the left side bar, click the square icon to open the extensions menu
@@ -60,7 +99,13 @@ To contribute to Discuss-Thread, follow the guidelines [here](./contributing.md)
 
 [![DISCORD](https://img.shields.io/badge/Join-Discord-blue)](https://discord.gg/csVrbuxdwQ)
 
-## Authors
+## Authors :pencil:
+<div align="center">
+<img src="https://img.shields.io/badge/-Authors-yellow">
+<img src="https://img.shields.io/badge/-Asutosh%20Das-informational">
+<img src="https://img.shields.io/badge/-Sambid%20Anand%20Bhardwaj-brightgreen">
+</div>
+
 - **Asutosh Das** - _initial work_ - [Asutosh Das](https://github.com/Ash-exp)
 - **Sambid Anand Bharadwaj** - _initial work_ - [Sambid Anand Bharadwaj](https://github.com/sams14)
 
